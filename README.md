@@ -7,6 +7,17 @@ This project implements a comprehensive stock market data pipeline using the Med
 
 ![image](https://github.com/user-attachments/assets/1bc51bf7-a30b-4d70-8f6f-45a5d320e2e7)
 
+
+
+I (Only Prompt in Chatbox)
+Showcases the interface after the user has provided a prompt but before the model’s response appears.
+
+![image](https://github.com/user-attachments/assets/f10161ff-ad00-4108-86e9-497cd666d2d8)
+
+UI Page (Prompt and Model Response)
+Highlights the final interface when both the user’s prompt and the model’s response are displayed.
+![image](https://github.com/user-attachments/assets/ebe81cd6-aad8-4768-b5a6-ee058d64d628)
+
 ##  Architecture
 
 ```
