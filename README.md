@@ -7,10 +7,10 @@ This project implements a comprehensive stock market data pipeline using the med
 ##  Architecture
 
 ```
-Stock APIs → Bronze Layer → Silver Layer → Gold Layer → Vector DB → RAG System → Analytics Dashboard
+Stock APIs → Bronze Layer → Silver Layer → Gold Layer → Vector DB → RAG System → StreamlitUI chatbot
     ↓           ↓             ↓            ↓           ↓         ↓            ↓
-yfinance    Raw Data    Cleaned Data   Business    FAISS    Gemini AI   Interactive
-Finnhub     Storage     Validation     Ready       Vector   LangChain   Dashboards
+yfinance    Raw Data    Cleaned Data   Business    FAISS    Gemini AI   Chatbot Output
+Finnhub     Storage     Validation     Ready       Vector   LangChain   
 ```
 
 ##  Tech Stack
