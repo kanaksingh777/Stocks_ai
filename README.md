@@ -81,6 +81,8 @@ Finnhub     Storage     Validation     Ready       Vector   LangChain
 
 ##  Data Pipeline Implementation
 
+![image](https://github.com/user-attachments/assets/f1ca59cd-8ef3-49ef-9be6-8cd0006722eb)
+
 ### Bronze Layer - Raw Data Ingestion
 
 #### 1. Historical Stock Data (`Stocks_ai_historical_bronze`)
@@ -125,11 +127,14 @@ Finnhub     Storage     Validation     Ready       Vector   LangChain
 - **Company Enrichment**: Adds company names from reference table
 - **Institutional Data**: Includes holder information for comprehensive analysis
 
+![image](https://github.com/user-attachments/assets/64b6ccb2-7dec-46aa-91b6-e89d7d0a43a5)
+![image](https://github.com/user-attachments/assets/227ca7bf-b538-4adb-81ed-2172b47d73ca)
 
 
 **Output Tables:**
 - `stocks_ai.stocks_GOLD_LAYER.Stocks_news_historical_RAG` - Main analytics table
 - `stocks_ai.stocks_GOLD_LAYER.Stocks_holders_RAG` - Institutional holders data
+  
 
 ### RAG Layer - AI-Powered Financial Analysis
 
