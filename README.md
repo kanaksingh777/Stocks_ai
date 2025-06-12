@@ -2,7 +2,7 @@
 Intelligent Stock Market Data Pipeline with RAG using Medallion Architecture in Databricks
 ## Overview
 
-This project implements a comprehensive stock market data pipeline using the Medallion Architecture (Bronze-Silver-Gold) in Databricks, enhanced with Retrieval-Augmented Generation (RAG) for intelligent analysis and insights. The system ingests historical stock data, real-time and historical news, market trends, and major holders' data—all critical factors influencing stock performance process this through multiple layers of refinement, and provides natural language querying capabilities for financial analysis.
+This project implements a comprehensive stock market data pipeline using the Medallion Architecture (Bronze-Silver-Gold) in Databricks, enhanced with Retrieval-Augmented Generation (RAG) for intelligent analysis and insights. The system ingests historical stock data, real-time and historical news, market trends, and major holders' data, all critical factors influencing stock performance process this through multiple layers of refinement, and provides natural language querying capabilities for financial analysis.
 
 ##  Architecture
 
